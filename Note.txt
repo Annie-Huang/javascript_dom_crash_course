@@ -1,4 +1,4 @@
-https://www.youtube.com/watch?v=0ik6X4DJKCc
+JavaScript DOM Crash Course - Part 1: https://www.youtube.com/watch?v=0ik6X4DJKCc
 
 D:\react\javascript_dom_crash_course>git init
 D:\react\javascript_dom_crash_course>git remote add origin git@github.com:Annie-Huang/javascript_dom_crash_course.git
