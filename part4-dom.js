@@ -3,9 +3,11 @@ var itemList = document.getElementById('items');
 
 // Form submit event
 form.addEventListener('submit', addItem);
+// Delete event
+itemList.addEventListener('click', removeItem);
 
 // Add item
-function addItem(e){
+function addItem(e) {
     e.preventDefault();
 
     // console.log('1'); // print out to see it can hit this method...
@@ -37,5 +39,20 @@ function addItem(e){
 
     console.log(li);
     console.log(deleteBtn);
+}
 
+// Remove item
+function removeItem(e) {
+    // console.log(1); // click anywhere in the item (not necessary within the button, will log this...
+
+    if(e.target.classList.contains('delete')) {
+        // console.log('1'); // only log when clicking the button, not anywhere else inside the item.
+
+        if(confirm('Are You Sure?')) { // will create confirmation box
+            var li = e.target.parentElement;
+            // console.log(li);
+
+            itemList.removeChild(li);
+        }
+    }
 }
