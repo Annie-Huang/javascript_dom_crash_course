@@ -7,7 +7,7 @@ D:\react\javascript_dom_crash_course>git commit
 (in pop up interface, enter commit msg)
 D:\react\javascript_dom_crash_course>git push -u origin master
 
-
+part1-3-dom.js --> index.html
 
 
 
